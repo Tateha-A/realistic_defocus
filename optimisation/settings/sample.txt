@@ -3,7 +3,7 @@
 
     "general"     : {
                      "cuda"                  : 1,
-                     "iterations"            : 60,
+                     "iterations"            : 100,
                      "propagation type"      : "Bandlimited Angular Spectrum",
                      "output directory"      : "./output",
                      "optimisation mode"     : "Stochastic Gradient Descent",
@@ -13,8 +13,8 @@
 
 
     "target"      : {
-                     "image filename"        : "../dataset/train/images/luxHouseRender_1.png",
-                     "depth filename"        : "../dataset/train/depths/luxHouseRender_1depth_8bit.png",
+                     "image filename"        : "../dataset/train/images/random_test1.png",
+                     "depth filename"        : "../dataset/train/depths/random_test1_depth_8bit.png",
                      "scheme"                : "defocus",
                      "color channel"         : 0,
                      "defocus blur size"     : 10,
